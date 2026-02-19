@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-marketplace-metering`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-metering/v/3.298.0).
+[`@aws-sdk/client-marketplace-metering`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-metering/v/3.299.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.298.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.299.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-tC9Mxa6i9zvgjt1ItJ9Z1mSS6NJcooKjunZ77AM6t7bKz3hzC6NuGdlbqoBrY33w
+sha384-67Fm9OctUuRTkR3fc583qjAIi6ymSaOGLR6Fd1plhWH3Hb9w3deO53Yze+6zWMW8
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-marketplace-metering": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.298.0/index.min.mjs"
+            "@aws-sdk/client-marketplace-metering": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.299.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.298.0/index.min.mjs": "sha384-tC9Mxa6i9zvgjt1ItJ9Z1mSS6NJcooKjunZ77AM6t7bKz3hzC6NuGdlbqoBrY33w"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.299.0/index.min.mjs": "sha384-67Fm9OctUuRTkR3fc583qjAIi6ymSaOGLR6Fd1plhWH3Hb9w3deO53Yze+6zWMW8"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-marketplace-metering": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.298.0/index.min.mjs"
+                        "@aws-sdk/client-marketplace-metering": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.299.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.298.0/index.min.mjs": "sha384-tC9Mxa6i9zvgjt1ItJ9Z1mSS6NJcooKjunZ77AM6t7bKz3hzC6NuGdlbqoBrY33w"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.299.0/index.min.mjs": "sha384-67Fm9OctUuRTkR3fc583qjAIi6ymSaOGLR6Fd1plhWH3Hb9w3deO53Yze+6zWMW8"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.298.0`)
+* Always pin to a specific version (`@3.299.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-marketplace-metering/blob/refs/tags/3.298.0/LICENSE
+https://github.com/cloud-sdk-builds/client-marketplace-metering/blob/refs/tags/3.299.0/LICENSE
 ```
 
 ---
