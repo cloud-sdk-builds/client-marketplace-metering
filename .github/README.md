@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-marketplace-metering`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-metering/v/3.1145.0).
+[`@aws-sdk/client-marketplace-metering`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-metering/v/3.1146.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-marketplace-metering - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-metering](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-metering)
-- @aws-sdk/client-marketplace-metering v3.1145.0 - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-metering&version=3.1145.0](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-metering&version=3.1145.0)
+- @aws-sdk/client-marketplace-metering v3.1146.0 - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-metering&version=3.1146.0](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-metering&version=3.1146.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1145.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1146.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-xoIRMwrv6g2dAl7Tu4yCD6RHXgb/o97ka0vD8aQwCfiaFbCj6WdZXB98qSfe85Pn
+sha384-ayEFDnbLtwQkteMa9nZGEPZnQM9DAdURy2Q8bAXasx0CMLqiq2M2Lwbp2PcMWDcO
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-marketplace-metering": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1145.0/index.min.mjs"
+            "@aws-sdk/client-marketplace-metering": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1146.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1145.0/index.min.mjs": "sha384-xoIRMwrv6g2dAl7Tu4yCD6RHXgb/o97ka0vD8aQwCfiaFbCj6WdZXB98qSfe85Pn"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1146.0/index.min.mjs": "sha384-ayEFDnbLtwQkteMa9nZGEPZnQM9DAdURy2Q8bAXasx0CMLqiq2M2Lwbp2PcMWDcO"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-marketplace-metering": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1145.0/index.min.mjs"
+                        "@aws-sdk/client-marketplace-metering": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1146.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1145.0/index.min.mjs": "sha384-xoIRMwrv6g2dAl7Tu4yCD6RHXgb/o97ka0vD8aQwCfiaFbCj6WdZXB98qSfe85Pn"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-metering@3.1146.0/index.min.mjs": "sha384-ayEFDnbLtwQkteMa9nZGEPZnQM9DAdURy2Q8bAXasx0CMLqiq2M2Lwbp2PcMWDcO"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1145.0`)
+* Always pin to a specific version (`@3.1146.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-marketplace-metering/blob/refs/tags/3.1145.0/LICENSE
+https://github.com/cloud-sdk-builds/client-marketplace-metering/blob/refs/tags/3.1146.0/LICENSE
 ```
 
 ---
